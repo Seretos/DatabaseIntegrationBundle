@@ -1,0 +1,7 @@
+services:
+     database.driver.factory:
+         class: database\DriverBundle\factory\DriverBundleFactory
+     database.integration.factory:
+         class: database\DatabaseIntegrationBundle\factory\DatabaseIntegrationBundleFactory
+     database.querybuilder.factory:
+         class: database\QueryBuilderBundle\factory\QueryBuilderBundleFactory
