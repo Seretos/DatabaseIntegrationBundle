@@ -10,6 +10,7 @@ namespace database\DatabaseIntegrationBundle\factory;
 
 
 use database\DriverBundle\factory\DriverBundleFactory;
+use dbi\DBI;
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Driver\PDOConnection;
 
@@ -19,6 +20,12 @@ class DatabaseIntegrationBundleFactory {
         $pdo = $connection->getWrappedConnection();
 
         return $driverFactory->convertPdo($pdo);
+    }
+
+    public function convertDbiConnection (DriverBundleFactory $driverFactory, $name) {
+        $dbi = DBI::getConnection($name);
+
+        return $driverFactory->convertMysqli($dbi->getMysqli());
     }
 
     public function createConnection (DriverBundleFactory $driverFactory,

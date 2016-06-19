@@ -1,12 +1,12 @@
-
-
-Code Coverage Report:   
-  2016-06-18 22:51:46   
-                        
- Summary:               
-  Classes: 100.00% (1/1)
-  Methods: 100.00% (2/2)
-  Lines:   100.00% (3/3)
-
-\database\DatabaseIntegrationBundle\factory::DatabaseIntegrationBundleFactory
-  Methods: 100.00% ( 2/ 2)   Lines: 100.00% (  3/  3)
+
+
+Code Coverage Report:  
+  2016-06-19 11:31:13  
+                       
+ Summary:              
+  Classes:  0.00% (0/1)
+  Methods: 66.67% (2/3)
+  Lines:   60.00% (3/5)
+
+\database\DatabaseIntegrationBundle\factory::DatabaseIntegrationBundleFactory
+  Methods:  66.67% ( 2/ 3)   Lines:  60.00% (  3/  5)
