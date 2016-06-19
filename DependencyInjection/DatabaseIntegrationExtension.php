@@ -22,7 +22,6 @@ class DatabaseIntegrationExtension extends Extension {
      * {@inheritdoc}
      */
     public function load (array $configs, ContainerBuilder $container) {
-        var_dump(debug_backtrace());
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
