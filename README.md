@@ -24,10 +24,6 @@ add the bundle in your composer.json as bellow:
       "url": "https://github.com/Seretos/QueryBuilderBundle"
     },
     {
-      "type": "git",
-      "url": "https://github.com/Seretos/RepositoryBundle"
-    },
-    {
       "type" : "git",
       "url" : "https://github.com/Seretos/DatabaseIntegrationBundle"
     }
